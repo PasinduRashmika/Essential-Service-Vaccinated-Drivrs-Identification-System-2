@@ -1,0 +1,158 @@
+/*//////////////////////////////////////////////////////////////////
+//  Login Styles  //
+//////////////////////////////////////////////////////////////////*/
+
+#PoliceCancelPane1
+{
+	-fx-background-color: #0C0A0A;
+}
+
+#PoliceCancelPane2
+{
+	-fx-background-color:#333030;
+}
+
+#ViewBtn,#ViewBtn2,#DBViewBtn1,#DBViewBtn2,#CancelBtn,#CancelBtn2,#DBCancelBtn1,#DBCancelBtn2
+{
+	-fx-background-color:transparent;
+	-fx-border-color:#FF0000;
+	-fx-text-fill:#fff;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+
+#ViewBtn:hover,#ViewBtn2:hover,#DBViewBtn1:hover,#DBViewBtn2:hover,#CancelBtn:hover,#CancelBtn2:hover,#DBCancelBtn1:hover,#DBCancelBtn2:hover
+{
+	-fx-background-color:#F50912;
+	-fx-background-radius:7px;
+	-fx-cursor:pointer;
+}
+
+#ViewBtn:focused,#ViewBtn2:focused,#DBViewBtn1:focused,#DBViewBtn2:focused,#CancelBtn:focused,#CancelBtn2:focused,#DBCancelBtn1:focused,#DBCancelBtn2:focused
+{
+	-fx-background-color:#F50912
+}
+
+#LogOutBtn,#DBLogOutBtn
+{
+	-fx-background-color: linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-background-radius:0px;
+	-fx-text-fill:#fff;
+}
+
+#LogOutBtn:hover,#DBLogOutBtn:hover
+{
+	-fx-background-color:  #F50912;
+}
+
+#PoliceViewPane1
+{
+	-fx-background-color: #0C0A0A;
+}
+
+#PoliceViewPane2
+{
+	-fx-background-color:#333030;
+}
+
+#BackBtn,#BackBtn2,#DBBackBtn
+{
+	-fx-background-color:Transparent;
+}
+
+#ViewCBtn,#SubmitBtn
+{
+	-fx-background-color:transparent;
+	-fx-border-radius:7px;
+	-fx-cursor: pointer;
+}
+
+#ViewCBtn:hover,#SubmitBtn:hover
+{
+	-fx-background-color:#de0000;
+	-fx-text-fill:#fff;	
+	-fx-background-radius:10px;
+	-fx-border-color: #de0000;
+	-fx-border-width:1.25px;
+}
+#Backbtn{
+	-fx-background-color:transparent;
+	-fx-text-fill:#de0000;	
+	-fx-background-radius:25px;
+	-fx-border-color: #de0000;
+	-fx-border-width:1.25px;
+	-fx-border-radius:10px;
+}
+#Backbtn:hover{
+	-fx-background-color:#de0000;
+	-fx-text-fill:#fff;	
+	-fx-background-radius:10px;
+	-fx-border-color: #de0000;
+	-fx-border-width:1.25px;
+}
+#Backbtn:focused{
+	-fx-background-color:  linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-text-fill:#fff;	
+	-fx-background-radius:10px;
+	-fx-border-color: #de0000;
+	-fx-border-width:1.25px;
+}
+
+
+#ViewCBtn:focused,#SubmitBtn:focused
+{
+	-fx-background-color:linear-gradient(to bottom ,#00df0f, #018383 );
+	-fx-text-fill:#fff;
+	-fx-background-radius:7px;
+	-fx-border-color: #de0000;
+	-fx-border-width:1.25px;	
+}
+
+#PoliceDashBoardPane1
+{
+	-fx-background-color: #0C0A0A;
+}
+
+#PoliceDashBoardPane2
+{
+	-fx-background-color:#333030;
+}
+#PermitNoTxt,#VehicleNoTxt,#Descriptiontxt,#VehicleNoTxtDescription{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;	
+}
+
+
+
+
+
+#UserComplains,#CancelPermits{
+	-fx-background-color:transparent;
+	-fx-border-color: #FF0000;	
+	-fx-text-fill:#fff;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;	
+}
+#Searchbtn1,#Searchbtn2{
+	-fx-background-color:transparent;
+	-fx-border-color: #FF0000;	
+	-fx-text-fill:#FF0000;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+#UserComplains:hover,#CancelPermits:hover,#Searchbtn1:hover,#Searchbtn2:hover{
+	-fx-background-color:  #F50912;
+	-fx-background-radius:7px;
+	-fx-text-fill:#FFF;
+	-fx-cursor: pointer;
+}
+#UserComplains:focused,#CancelPermits:focused,#Searchbtn1:focused,#Searchbtn2:focused{
+	-fx-background-color:  linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-background-radius:7px;
+	-fx-cursor: pointer;
+	-fx-text-fill:#FFF;
+}
+#PermitNo,#VehicleNo,#Description,#CancelPermitNo,#CancelVehicleNo,#CancelDescription{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;	
+}

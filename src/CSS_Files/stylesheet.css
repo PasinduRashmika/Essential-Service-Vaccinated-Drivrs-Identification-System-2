@@ -1,0 +1,162 @@
+/*//////////////////////////////////////////////////////////////////
+//  Login Styles   //
+//////////////////////////////////////////////////////////////////*/
+#ForgotPass{
+	-fx-underline: true;
+	-fx-cursor: hand;
+}
+#loginpane1{
+	-fx-background-color:#0C0A0A;
+}
+#loginpane2{
+	-fx-background-color:#332A2A;
+}
+
+#inputNIC,#inputPass{
+	-fx-background-radius:20px;
+	-fx-background-color:transparent;
+	-fx-border-color: transparent transparent #aaa transparent;
+	-fx-padding: 10px;
+	-fx-text-fill:#fff;
+}
+#loginbtn{
+	-fx-background-color: linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-text-fill:#fff;
+}
+#loginbtn:hover{
+	-fx-background-color:  #F50912;
+	-fx-cursor: hand;
+}
+
+#loginpane1{
+	-fx-background-color:#0C0A0A;
+}
+#loginwelcome:hover{
+	-fx-text-fill:#860200;
+	
+}
+
+/*//////////////////////////////////////////////////////////////////
+//  AboutUs Styles  //
+//////////////////////////////////////////////////////////////////*/
+#AboutUsbtn{
+	-fx-background-radius:20px;
+	-fx-background-color: linear-gradient(to bottom ,#0C0A0A, #5C5B5B );
+	-fx-border-color:linear-gradient(to bottom ,#0C0A0A, #5C5B5B );
+	-fx-border-radius:20px;
+	-fx-text-fill:#fff;
+	-fx-cursor: hand;
+}
+#AboutUsbtn:hover{
+	-fx-background-color: linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-border-color: linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-cursor: hand;
+}
+#AboutUspane1{
+	-fx-background-color: #0C0A0A; 	
+}
+#AboutUspane2{
+	-fx-background-color: linear-gradient(to bottom left,rgba(0,0,0,0.60), rgba(42,46,54,1) ); 
+}
+#AboutUsimg1{
+	-fx-border-color:#000;
+	-fx-border-radius:20px;
+	-fx-background-radius:20px;
+}
+#talkLable:hover{
+	-fx-text-fill:#860200;
+}	
+#img1,#img2,#img3,#img4{
+	-fx-border-radius:20px;
+	-fx-background-radius:20px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+/*//////////////////////////////////////////////////////////////////
+//  Admin Dashboard Styles  //
+//////////////////////////////////////////////////////////////////*/
+#AdminDashPane1{
+	-fx-background-color:#0C0A0A;
+}
+#AdminDashPane2{
+	-fx-background-color:#332A2A;
+}
+.AdminDashbtn{
+	-fx-background-color:transparent;
+	-fx-border-width: 3;
+	-fx-border-color: #F50912;
+	-fx-border-radius:10px;
+	-fx-cursor: hand;
+}
+#pasinduimg{
+	-fx-border-width: 3;
+	-fx-border-color: #F50912;
+	-fx-border-radius:10px;
+	-fx-background-radius:20px;
+}
+#AboutUsBack{
+	-fx-background-color: transparent;
+	-fx-border-color: #F50912;
+	-fx-border-radius:10px;
+	-fx-text-fill:#F50912;
+}
+#AboutUsBack:hover{
+	-fx-background-color: #F50912;
+	-fx-border-color: #F50912;
+	-fx-border-radius:25px;
+	-fx-text-fill:#FFF;
+	-fx-cursor: hand;
+}
+
+/*//////////////////////////////////////////////////////////////////
+//  Loading Styles  //
+//////////////////////////////////////////////////////////////////*/
+
+#progressbar{
+	-fx-accent: #A20035;
+    -fx-background-color: transparent ;
+    /*-fx-box-border:linear-gradient(to bottom, derive(-fx-accent,95%), derive(-fx-accent,10%)),
+        red;*/
+    -fx-box-border:balck;    
+   
+     -fx-control-inner-background: black;
+    
+    
+}
+#LoadingLable{
+	-fx-text-fill:#FFF;
+}
+#Lbtn{
+	-fx-background-color:transparent;	
+	-fx-text-fill:#FFF;
+}
+#Lbtn:hover{
+	-fx-cursor:hand;
+	-fx-font-size:28px;
+	-fx-font-weight:700;
+	-fx-cursor: hand;
+}
+/*//////////////////////////////////////////////////////////////////
+//  MessageBox Styles  //
+//////////////////////////////////////////////////////////////////*/
+#MessageBack{
+	 
+	-fx-background-color: #262625; 
+}
+#SuccessCircle{
+	-fx-background-color:#69EE00;
+}
+#SuccessPane{
+	-fx-background-color:#69EE00;
+}
+#ErrorPane{
+	-fx-background-color:#f90800;
+}
+#OKbtn{
+	-fx-background-color:transparent;
+	-fx-text-fill:#CBFECD;
+	-fx-border-radius:10px;
+}
+#OKbtn:hover{
+	-fx-text-fill:#FFF;
+}

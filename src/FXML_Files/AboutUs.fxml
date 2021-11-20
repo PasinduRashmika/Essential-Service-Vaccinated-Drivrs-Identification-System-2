@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1140.0" stylesheets="@../CSS_Files/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AboutUsController">
+   <children>
+      <Pane fx:id="AboutUspane1" prefHeight="650.0" prefWidth="446.0" stylesheets="@../../../ESV%20N/Essential-Service-Vaccinated-Drivrs-Identification-System/src/CSS_Files/stylesheet.css">
+         <children>
+            <ImageView fitHeight="291.0" fitWidth="490.0" layoutX="-22.0" layoutY="29.0">
+               <image>
+                  <Image url="@../../../ESV%20N/Essential-Service-Vaccinated-Drivrs-Identification-System/src/Images/TeamLogo.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="talkLable" layoutX="114.0" layoutY="371.0" prefHeight="30.0" prefWidth="219.0" text="Talk with us in deeply....!" textFill="#dddddd">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="572.0" prefHeight="30.0" prefWidth="264.0" text="Unicorn Soft Software Team" textFill="#726868">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="AboutUsBack" layoutX="149.0" layoutY="486.0" mnemonicParsing="false" onAction="#AboutUsBackAction" prefHeight="30.0" prefWidth="150.0" stylesheets="@../../../ESV%20N/Essential-Service-Vaccinated-Drivrs-Identification-System/src/CSS_Files/stylesheet.css" text="Login" />
+         </children>
+      </Pane>
+      <Pane fx:id="AboutUspane2" layoutX="446.0" prefHeight="650.0" prefWidth="694.0" stylesheets="@../../../ESV%20N/Essential-Service-Vaccinated-Drivrs-Identification-System/src/CSS_Files/stylesheet.css">
+         <children>
+            <Label layoutX="37.0" layoutY="14.0" prefHeight="45.0" prefWidth="219.0" text="Software Team" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Line endX="-20.0" layoutX="139.0" layoutY="59.0" startX="-100.0" stroke="#ff0202" strokeWidth="4.0" />
+            <Label layoutX="67.0" layoutY="321.0" prefHeight="31.0" prefWidth="199.0" text="Mr.Pasindu Rashmika" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="417.0" layoutY="321.0" prefHeight="31.0" prefWidth="232.0" text="Mr.Praveen Madusanka" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="74.0" layoutY="595.0" prefHeight="31.0" prefWidth="186.0" text="Ms.Sherin Fernando" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="445.0" layoutY="595.0" prefHeight="31.0" prefWidth="209.0" text="Mr.Hashan Piyumal" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="img2" fitHeight="246.0" fitWidth="271.0" layoutX="394.0" layoutY="76.0">
+               <image>
+                  <Image url="@../Images/praveen.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img1" fitHeight="246.0" fitWidth="264.0" layoutX="37.0" layoutY="76.0">
+               <image>
+                  <Image url="@../Images/pasindu.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img4" fitHeight="246.0" fitWidth="264.0" layoutX="401.0" layoutY="352.0">
+               <image>
+                  <Image url="@../Images/Hashan.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img3" fitHeight="246.0" fitWidth="271.0" layoutX="37.0" layoutY="352.0">
+               <image>
+                  <Image url="@../Images/sherin.png" />
+               </image>
+            </ImageView>
+            <Line endX="-100.0" endY="162.0" layoutX="126.0" layoutY="473.0" startX="-100.0" stroke="#e40707" strokeWidth="3.0" />
+            <Line endX="-110.0" endY="151.0" layoutX="136.0" layoutY="483.0" startX="41.0" startY="151.0" stroke="#e40707" strokeWidth="3.0" />
+            <Line endX="100.0" layoutX="578.0" layoutY="61.0" startX="-100.0" stroke="#f50000" strokeWidth="3.0" />
+            <Line endX="100.0" layoutX="579.0" layoutY="63.0" startX="100.0" startY="182.0" stroke="#f50f0f" strokeWidth="3.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

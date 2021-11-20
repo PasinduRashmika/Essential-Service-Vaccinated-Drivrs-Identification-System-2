@@ -1,0 +1,190 @@
+/*//////////////////////////////////////////////////////////////////
+//  UserDashboard Styles  //
+//////////////////////////////////////////////////////////////////*/
+#UserDashPane1{
+	-fx-background-color: #0C0A0A; 	
+}
+#UserDashPane2{
+	-fx-background-color: #333030; 	
+}
+#CheckVehiclesbtn, #VaccinatedDetailsbtn, #Complainsbtn,#CheckVehiclesbtn1, #VaccinatedDetailsbtn1, #Complainsbtn1{
+	-fx-background-color:transparent;
+	-fx-border-color: #FF0000;	
+	-fx-text-fill:#fff;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+#CheckVehiclesbtn:hover, #VaccinatedDetailsbtn:hover, #Complainsbtn:hover, #CheckVehiclesbtn1:hover, #VaccinatedDetailsbtn1:hover, #Complainsbtn1:hover{
+	-fx-background-color:  #F50912;
+	-fx-background-radius:7px;
+	-fx-cursor: hand;
+}
+#CheckVehiclesbtn:focused, #VaccinatedDetailsbtn:focused, #Complainsbtn:focused, #CheckVehiclesbtn1:focused, #VaccinatedDetailsbtn1:focused, #Complainsbtn1:focused{
+	-fx-background-color:  linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-background-radius:7px;
+	-fx-cursor: hand;
+}
+
+#LogOutbtn{
+	-fx-background-color: linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-background-radius:0px;
+	-fx-text-fill:#fff;
+}
+#LogOutbtn:hover{
+	-fx-background-color:  #F50912;
+}
+#Backbtn{
+	-fx-background-color:transparent;
+}
+#Backbtn:hover{
+	-fx-border-color:#F50912;
+}
+
+/*//////////////////////////////////////////////////////////////////
+//  UserCheckVehicle Styles  //
+//////////////////////////////////////////////////////////////////*/
+
+#CheckVehiclesbtn2{
+	-fx-background-color: linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-border-color: #FF0000;	
+	-fx-text-fill:#fff;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+
+#VehicleNo, #PerNo, #PerDate1, #PerDate2, #Type, #Make, #Colour{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;
+}
+#VehicleSearchbtn{
+	-fx-background-color:transparent;
+	-fx-border-color: #F50912;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+#VehicleSearchbtn:hover{
+	-fx-background-color:  #F50912;
+	-fx-text-fill:#fff;
+	-fx-background-radius:7px;
+	-fx-cursor: pointer;
+}
+#VehicleSearchbtn:focused{
+	-fx-background-color:  linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-background-radius:7px;
+	-fx-text-fill:#fff;
+}
+#EssentialServise{
+	-fx-background-color:#696969;
+	-fx-text-fill:#09e324;
+}
+
+#Backbtn1{
+	-fx-background-color:transparent;
+}
+#Backbtn1:hover{
+	-fx-border-color:#F50912;
+}
+#backbtn{
+	-fx-background-color:transparent;
+	-fx-border-color: #F50912;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+#backbtn:hover{
+	-fx-background-color:  #F50912;
+	-fx-text-fill:#fff;
+	-fx-background-radius:7px;
+	-fx-cursor: pointer;
+}
+#backbtn:focused{
+	-fx-background-color:  linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-background-radius:7px;
+	-fx-text-fill:#fff;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+//  UserCheckVaccination Styles  //
+//////////////////////////////////////////////////////////////////*/
+
+#VaccinatedDetailsbtn2{
+	-fx-background-color: linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-border-color: #FF0000;	
+	-fx-text-fill:#fff;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+
+#DrivingLiNo, #Name, #VaccineType, #FirstDose, #SecondDose, #Booster{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;
+}
+#VaccinationSearchbtn{
+	-fx-background-color:transparent;
+	-fx-border-color: #F50912;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+#VaccinationSearchbtn:hover{
+	-fx-background-color:  #F50912;
+	-fx-text-fill:#fff;
+	-fx-background-radius:7px;
+	-fx-cursor: pointer;
+}
+#VaccinationSearchbtn:focused{
+	-fx-background-color:  linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-background-radius:7px;
+	-fx-text-fill:#fff;
+}
+#Backbtn2{
+	-fx-background-color:transparent;
+}
+#Backbtn2:hover{
+	-fx-border-color:#F50912;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+//  UserComplains Styles  //
+//////////////////////////////////////////////////////////////////*/
+
+#Complainsbtn2{
+	-fx-background-color: linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-border-color: #FF0000;	
+	-fx-text-fill:#fff;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+
+#PerNo, #VehicleNo, #Description{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;
+}
+#Submitbtn{
+	-fx-background-color:transparent;
+	-fx-border-color: #00df0f;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+#Submitbtn:hover{
+	-fx-background-color:#00df0f;
+	-fx-text-fill:#fff;	
+	-fx-background-radius:7px;
+	-fx-border-color: #32FF6A;
+	-fx-border-width:1.25px;
+}
+#Submitbtn:focused{
+	-fx-background-color:linear-gradient(to bottom ,#00df0f, #018383 );
+	-fx-text-fill:#fff;
+	-fx-background-radius:7px;
+	-fx-border-color: #32FF6A;
+	-fx-border-width:1.25px;
+}
+#Backbtn3{
+	-fx-background-color:transparent;
+}
+#Backbtn3:hover{
+	-fx-border-color:#F50912;
+}
+
+

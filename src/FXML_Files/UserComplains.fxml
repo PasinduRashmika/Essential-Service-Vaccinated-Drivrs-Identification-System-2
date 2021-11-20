@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1140.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.UserComplainsController">
+   <children>
+      <Pane fx:id="UserDashPane1" prefHeight="640.0" prefWidth="228.0" stylesheets="@../../../ESV%20N/Essential-Service-Vaccinated-Drivrs-Identification-System/src/CSS_Files/stylesheetHashan.css">
+         <children>
+            <Line endX="8.400009155273438" endY="3.814697265625E-6" layoutX="65.0" layoutY="76.0" rotate="90.0" startX="-100.0" stroke="#e40707" strokeWidth="3.0" />
+            <Button fx:id="LogOutbtn" layoutY="599.0" mnemonicParsing="false" onAction="#LogoutAction" prefHeight="40.0" prefWidth="228.0" text="Log Out" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="VaccinatedDetailsbtn" layoutX="44.0" layoutY="314.0" mnemonicParsing="false" onAction="#VaccinatedDetailsAction" prefHeight="55.0" prefWidth="141.0" text="Vaccinated Details" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Complainsbtn2" layoutX="42.0" layoutY="424.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="141.0" text="Complains" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="Us" layoutX="67.0" layoutY="53.0" text="User" textFill="#e40707">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </Label>
+            <Button fx:id="CheckVehiclesbtn" layoutX="44.0" layoutY="203.0" mnemonicParsing="false" onAction="#CheckVehiclesAction" prefHeight="55.0" prefWidth="141.0" text="Check Vehicles" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Line endX="8.400009155273438" endY="3.814697265625E-6" layoutX="119.0" layoutY="19.0" startX="-100.0" stroke="#e40707" strokeWidth="3.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="UserDashPane2" layoutX="228.0" prefHeight="640.0" prefWidth="912.0" stylesheets="@../../../ESV%20N/Essential-Service-Vaccinated-Drivrs-Identification-System/src/CSS_Files/stylesheetHashan.css">
+         <children>
+            <Line endX="8.400009155273438" endY="3.814697265625E-6" layoutX="880.0" layoutY="618.0" startX="-100.0" stroke="#e40707" strokeWidth="3.0" />
+            <Line endX="8.400009155273438" endY="3.814697265625E-6" layoutX="935.0" layoutY="563.0" rotate="90.0" startX="-100.0" stroke="#e40707" strokeWidth="3.0" />
+            <Line endX="-81.0624008178711" endY="1.4241751432418823" layoutX="145.0" layoutY="55.0" rotate="40.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+            <Line endX="-80.63815307617188" endY="-1.1510257720947266" layoutX="145.0" layoutY="39.0" rotate="-40.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+            <Line endX="-64.39996337890625" layoutX="147.0" layoutY="47.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+            <Button fx:id="Backbtn3" layoutX="35.0" layoutY="25.0" mnemonicParsing="false" onAction="#Backbtn3Action" prefHeight="48.0" prefWidth="59.0" />
+            <Label fx:id="Us1" layoutX="345.0" layoutY="56.0" text="Complains" textFill="#e40707">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </Label>
+            <Label layoutX="139.0" layoutY="195.0" text="Permit No" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="136.0" layoutY="274.0" text="Vehicle No" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="133.0" layoutY="358.0" text="Description" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="310.0" layoutY="186.0" text=":" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="309.0" layoutY="265.0" text=":" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="310.0" layoutY="355.0" text=":" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <TextField fx:id="PerNo" layoutX="352.0" layoutY="194.0" prefHeight="25.0" prefWidth="445.0" />
+            <TextField fx:id="VehicleNo" layoutX="352.0" layoutY="273.0" prefHeight="25.0" prefWidth="445.0" />
+            <Button fx:id="Submitbtn" layoutX="714.0" layoutY="524.0" mnemonicParsing="false" onAction="#SubmitbtnAction" text="Submit" textFill="#25d72b">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <TextField fx:id="Description" layoutX="352.0" layoutY="355.0" prefHeight="136.0" prefWidth="445.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

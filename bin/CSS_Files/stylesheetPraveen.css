@@ -1,0 +1,142 @@
+/*//////////////////////////////////////////////////////////////////
+//  Login Styles  //
+//////////////////////////////////////////////////////////////////*/
+#AdminDashPane1{
+	-fx-background-color: #0C0A0A; 	
+}
+#AdminDashPane2{
+	-fx-background-color: #333030; 	
+}
+#AdminDashbtn1, #AdminDashbtn2, #AdminDashbtn3, #AdminDashbtn4, #AdminDashbtn5{
+	-fx-background-color:transparent;
+	-fx-border-color: #FF0000;	
+	-fx-text-fill:#fff;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+#AdminDashbtn1:hover, #AdminDashbtn2:hover, #AdminDashbtn3:hover, #AdminDashbtn4:hover, #AdminDashbtn5:hover{
+	-fx-background-color:  #F50912;
+	-fx-background-radius:7px;
+	-fx-cursor: pointer;
+}
+#AdminDashbtn1:focused, #AdminDashbtn2:focused, #AdminDashbtn3:focused, #AdminDashbtn4:focused, #AdminDashbtn5:focused{	
+	-fx-background-color:  linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-background-radius:7px;
+	-fx-cursor: pointer;
+}
+#AdminDashbtn6, #AdminDashbtn7, #AdminDashbtn8, #AdminDashbtn9, #AdminDashbtn10{
+	-fx-background-color:transparent;
+	-fx-border-color: #FF0000;	
+	-fx-text-fill:#fff;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+#AdminDashbtn6:hover, #AdminDashbtn7:hover, #AdminDashbtn8:hover, #AdminDashbtn9:hover, #AdminDashbtn10:hover{
+	-fx-background-color:  #F50912;
+	-fx-background-radius:7px;
+	-fx-cursor: pointer;
+}
+#AdminDashbtn6:focused, #AdminDashbtn7:focused, #AdminDashbtn8:focused, #AdminDashbtn9:focused, #AdminDashbtn10:focused{	
+	-fx-background-color:  linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-background-radius:7px;
+	-fx-cursor: pointer;
+}
+#LogOutbtn{
+	-fx-background-color: linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-background-radius:0px;
+	-fx-text-fill:#fff;
+	-fx-cursor: pointer;
+}
+#LogOutbtn:hover{
+	-fx-background-color:  #F50912;
+	-fx-cursor: pointer;
+}
+#Backbtn{
+	-fx-background-color:transparent;
+	-fx-border-radius:7px;
+	-fx-cursor: pointer;
+}
+#Backbtn:hover{
+	-fx-border-color:#F50912;
+}
+#SubmitUserbtn, #SubmitVehiclebtn, #SubmitVaccinatedbtn{
+	-fx-background-color:transparent;
+	-fx-border-color: #00df0f;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+#SubmitUserbtn:hover, #SubmitVehiclebtn:hover, #SubmitVaccinatedbtn:hover{
+	-fx-background-color:#00df0f;
+	-fx-text-fill:#fff;	
+	-fx-background-radius:7px;
+	-fx-border-color: #32FF6A;
+	-fx-border-width:1.25px;
+}
+#SubmitUserbtn:focused, #SubmitVehiclebtn:focused, #SubmitVaccinatedbtn:focused{
+	-fx-background-color:linear-gradient(to bottom ,#00df0f, #018383 );
+	-fx-text-fill:#fff;
+	-fx-background-radius:7px;
+	-fx-border-color: #32FF6A;
+	-fx-border-width:1.25px;
+}
+#UserNameTxt, #UserNicTxt, #StationTxt, #DestinationTxt{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;
+	
+}
+#VehicleNotxt, #VehicleTypetxt, #Vehiclecolortxt, #VehicleMaketxt, #VehicleLiNotxt, #VehiclePermittxt,#startDate,#EndDate{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;
+	
+}
+#VaccinatedDrivertxt, #FirstDosePicker, #SecondDosePicker{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;	
+}
+#DeleteVehicleNotxt,#VaccinatedDatetxt1,#VaccinatedDatetxt2, #DeleteDrivertxt, #DeleteVehicleTypetxt, #DeleteVehiclecolortxt, #DeleteVehicleMaketxt, #DeleteVehicleLiNotxt,#DeleteVehiclePermittxt2, #DeleteVehiclePermittxt{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;	
+}
+#DetailsTable{
+	-fx-border-color: #fff;
+}
+#Deletebtn, #DeleteVehiclebtn{
+	-fx-background-color:transparent;
+	-fx-border-color: #F50912;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+#Deletebtn:hover, #DeleteVehiclebtn:hover{
+	-fx-background-color:  #F50912;
+	-fx-text-fill:#fff;
+	-fx-background-radius:7px;
+	-fx-cursor: pointer;
+}
+#Deletebtn:focused, #DeleteVehiclebtn:focused{
+	-fx-background-color:  linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-background-radius:7px;
+	-fx-text-fill:#fff;
+}
+
+
+#Searchbtn, #DeleteVehicleSearchbtn{
+	-fx-background-color:transparent;
+	-fx-border-color: #F50912;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+#Searchbtn:hover, #DeleteVehicleSearchbtn:hover{
+	-fx-background-color:  #F50912;
+	-fx-text-fill:#fff;
+	-fx-background-radius:7px;
+	-fx-cursor: pointer;
+}
+#Searchbtn:focused, #DeleteVehicleSearchbtn:focused{
+	-fx-background-color:  linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-background-radius:7px;
+	-fx-text-fill:#fff;
+}
+#ChoiceBoxSelect{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;	
+}

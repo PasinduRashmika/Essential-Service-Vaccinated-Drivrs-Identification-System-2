@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1140.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminVaccinatedDetailsController">
+   <children>
+      <Pane fx:id="AdminDashPane1" prefHeight="650.0" prefWidth="228.0" stylesheets="@../../../ESV%20N/Essential-Service-Vaccinated-Drivrs-Identification-System/src/CSS_Files/stylesheetPraveen.css">
+         <children>
+            <Line fx:id="AdminDashLine1" endX="8.400009155273438" endY="3.814697265625E-6" layoutX="119.0" layoutY="20.0" startX="-100.0" stroke="#e40707" strokeWidth="3.0" />
+            <Line fx:id="AdminDashLine2" endX="8.400009155273438" endY="3.814697265625E-6" layoutX="65.0" layoutY="76.0" rotate="90.0" startX="-100.0" stroke="#e40707" strokeWidth="3.0" />
+            <Label fx:id="Admin" layoutX="44.0" layoutY="43.0" text="Admin" textFill="#e40707">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </Label>
+            <Button fx:id="AdminDashbtn5" layoutX="44.0" layoutY="460.0" mnemonicParsing="false" onAction="#AdminDashAction5" prefHeight="55.0" prefWidth="141.0" text="Add Vaccination Details" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdminDashbtn1" layoutX="44.0" layoutY="142.0" mnemonicParsing="false" onAction="#AdminDashAction1" prefHeight="55.0" prefWidth="141.0" text="Add User" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdminDashbtn2" layoutX="44.0" layoutY="219.0" mnemonicParsing="false" onAction="#AdminDashAction2" prefHeight="55.0" prefWidth="141.0" text="Delete User" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdminDashbtn3" layoutX="44.0" layoutY="297.0" mnemonicParsing="false" onAction="#AdminDashAction3" prefHeight="55.0" prefWidth="141.0" text="Add Vehicle Details" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdminDashbtn4" layoutX="44.0" layoutY="378.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="141.0" text="Delete Vehicle Details" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdminDashbtn5" layoutX="44.0" layoutY="460.0" mnemonicParsing="false" onAction="#AdminDashAction5" prefHeight="55.0" prefWidth="141.0" text="Add Vaccination Details" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="LogOutbtn" alignment="CENTER" layoutY="610.0" mnemonicParsing="false" onAction="#LogOutbtnAction" prefHeight="40.0" prefWidth="228.0" text="Log out" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="AdminDashPane2" layoutX="228.0" prefHeight="650.0" prefWidth="912.0" stylesheets="@../../../ESV%20N/Essential-Service-Vaccinated-Drivrs-Identification-System/src/CSS_Files/stylesheetPraveen.css">
+         <children>
+            <Line fx:id="AdminDashLine3" endX="8.400009155273438" endY="3.814697265625E-6" layoutX="874.0" layoutY="627.0" startX="-100.0" stroke="#e40707" strokeWidth="3.0" />
+            <Line fx:id="AdminDashLine4" endX="8.400009155273438" endY="3.814697265625E-6" layoutX="929.0" layoutY="572.0" rotate="90.0" startX="-100.0" stroke="#e40707" strokeWidth="3.0" />
+            <Line endX="-64.39996337890625" layoutX="147.0" layoutY="47.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+            <Line endX="-81.0624008178711" endY="1.4241751432418823" layoutX="145.0" layoutY="55.0" rotate="40.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+            <Line endX="-80.63815307617188" endY="-1.1510257720947266" layoutX="145.0" layoutY="39.0" rotate="-40.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+            <Button fx:id="Backbtn" layoutX="35.0" layoutY="23.0" mnemonicParsing="false" onAction="#BackbtnAction" prefHeight="48.0" prefWidth="59.0" />
+            <Text fill="WHITE" layoutX="104.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Driving Li. No    :">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Label fx:id="Admin1" alignment="CENTER" layoutX="211.0" layoutY="38.0" text="Add Vaccinated Details" textFill="#e40707">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </Label>
+            <TextField fx:id="VaccinatedDrivertxt" layoutX="336.0" layoutY="120.0" prefHeight="37.0" prefWidth="473.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <Button fx:id="SubmitVaccinatedbtn" layoutX="683.0" layoutY="534.0" mnemonicParsing="false" onAction="#SubmitVaccinatedbtnAction" prefHeight="56.0" prefWidth="162.0" text="Submit" textAlignment="CENTER" textFill="#00df0f" wrapText="true">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="104.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name of the Vaccine obtained :">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="168.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Synopharm:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="168.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pfyzer:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="168.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sputnik V:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="553.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AstraZeneca:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="553.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Moderna:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="104.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dates of the Vaccine obtained :">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="168.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Taken:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="168.0" layoutY="502.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="553.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Taken:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="554.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="264.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Dose:">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="647.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Second Dose:">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <RadioButton fx:id="S" layoutX="310.0" layoutY="220.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" text="RadioButton">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="group" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="P" layoutX="310.0" layoutY="260.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" text="RadioButton" toggleGroup="$group">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="V" layoutX="310.0" layoutY="298.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" text="RadioButton" toggleGroup="$group">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="A" layoutX="692.0" layoutY="223.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" text="RadioButton" toggleGroup="$group">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="M" layoutX="692.0" layoutY="263.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" text="RadioButton" toggleGroup="$group">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </RadioButton>
+            <CheckBox fx:id="first" layoutX="310.0" layoutY="433.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="4.0" text="CheckBox">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="second" layoutX="692.0" layoutY="437.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="4.0" text="CheckBox">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </CheckBox>
+            <TextField fx:id="VaccinatedDatetxt1" layoutX="264.0" layoutY="474.0" prefHeight="38.0" prefWidth="177.0" promptText="yyyy-mm-dd">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="VaccinatedDatetxt2" layoutX="647.0" layoutY="474.0" prefHeight="38.0" prefWidth="177.0" promptText="yyyy-mm-dd">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+   </children>
+   <stylesheets>
+      <URL value="@../../../ESV%20N/Essential-Service-Vaccinated-Drivrs-Identification-System/src/CSS_Files/stylesheetPraveen.css" />
+      <URL value="@../CSS_Files/stylesheetPraveen.css" />
+   </stylesheets>
+</AnchorPane>
